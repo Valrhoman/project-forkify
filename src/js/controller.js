@@ -43,10 +43,10 @@ const controlRecipes = async function () {
 ////////// Lecture 296: Implementing Search Results - Part 1
 const controlSearchResults = async function () {
   try {
-    resultsView.renderSpinner();
     // 1) Get search query
     const query = searchView.getQuery();
     if (!query) return;
+    resultsView.renderSpinner();
 
     // 2) Load search results
     await model.loadSearchResults(query);
