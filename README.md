@@ -1,4 +1,4 @@
-#forkify Project
+# project-forkify
 
 Hi! This web application was the capstone project in the Udemy course 'The Complete JavaScript Course 2023: From Zero to Expert!' taught by Jonas Schmedtmann.
 
